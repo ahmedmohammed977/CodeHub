@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeHub – Build Your Future | Instructors</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-bar navbar navbar-expand-lg navbar-dark">
+            <a id="site-logo" class="navbar-brand" href="index.html">Code<span>Hub</span></a>
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            <label for="menu-toggle" class="menu-toggle-btn navbar-toggler" aria-label="Open Menu">
+                &#9776; Menu
+            </label>
+            <nav class="main-nav" aria-label="Main Navigation">
+                <div class="close-drawer-item">
+                    <label for="menu-toggle" class="close-drawer-btn">&times; Close</label>
+                </div>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link active-link" href="instructors.html">Instructors</a></li>
+                    <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+                    <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container my-4">
+        <section class="mb-4">
+            <h1>Our Instructors</h1>
+            <p>Meet the <strong>professors and instructors</strong> who teach the courses and help students in the labs.</p>
+        </section>
+        <!-- كارت الدكاتره -->
+        <section class="mb-5">
+            <h2>Academy Faculty</h2>
+            <p>Our instructors help you understand the lectures and write clean code by yourself.</p>
+            <div class="row g-4 mt-1">
+                <!-- Dr/ Alwan-->
+                <div class="col-md-4">
+                    <article class="academy-card featured-card h-100">
+                        <span class="card-badge">Web Lead</span>
+                        <img src="images/instructor-1.png" alt="Dr. Alwan Atta - Web Programming Lecturer" class="mb-3">
+                        <h3>Dr. Alwan Atta</h3>
+                        <p><strong>Role:</strong> Web Programming Lecturer</p>
+                        <p>Teaches <em>HTML5</em>, <em>CSS3 foundations</em>, Flexbox, Grid, and Bootstrap responsive design.</p>
+                        <ul>
+                            <li>Course: <a href="courses.html">CSE211 Web Programming</a></li>
+                            <li>Office Hours: Sunday &amp; Tuesday (12:00 PM)</li>
+                        </ul>
+                    </article>
+                </div>
+                <!-- Dr/ Nora Naizy -->
+                <div class="col-md-4">
+                    <article class="academy-card h-100">
+                        <span class="card-badge">Software</span>
+                        <img src="images/instructor-2.png" alt="Dr. Nora Naizy - Software Engineering Instructor" class="mb-3">
+                        <h3>Dr. Nora Naizy</h3>
+                        <p><strong>Role:</strong> Software Engineering Instructor</p>
+                        <p>Teaches <strong>software engineering</strong>, system design, and practical coding with Python.</p>
+                        <ul>
+                            <li>Course: <a href="courses.html">CSE220 Software &amp; Python</a></li>
+                            <li>Office Hours: Monday &amp; Wednesday (2:00 PM)</li>
+                        </ul>
+                    </article>
+                </div>
+                <!-- Dr/ Tamer Ahmed -->
+                <div class="col-md-4">
+                    <article class="academy-card h-100">
+                        <span class="card-badge">Security</span>
+                        <img src="images/instructor-3.png" alt="Dr. Tamer Ahmed - Linux and Security Instructor" class="mb-3">
+                        <h3>Dr. Tamer Ahmed</h3>
+                        <p><strong>Role:</strong> Linux &amp; Security Instructor</p>
+                        <p>Teaches <em>Linux administration</em>, user permissions, and network security labs.</p>
+                        <ul>
+                            <li>Course: <a href="courses.html">CSE310 Linux &amp; Security</a></li>
+                            <li>Office Hours: Thursday (11:00 AM)</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- المواعيد -->
+        <div class="page-grid-layout">
+            <section class="academy-card">
+                <h2>How to Ask for Help in Office Hours</h2>
+                <p>If you have any problem in your code or project, do these steps:</p>
+                <ol>
+                    <li>Check the instructor time on the <a href="schedule.html">Schedule page</a>.</li>
+                    <li>Bring your laptop with your project folder open in VS Code.</li>
+                    <li>Come to Room B-204 <strong>10 minutes</strong> before the office hour starts.</li>
+                </ol>
+            </section>
+            <aside class="sidebar-box">
+                <h3>What We Check in the Lab</h3>
+                <p>In the lab discussion, instructors check:</p>
+                <ul>
+                    <li>Clean <strong>HTML tags</strong> and indentation.</li>
+                    <li>How the page looks on mobile using <em>F12 DevTools</em>.</li>
+                    <li>That you understand the CSS rules you wrote.</li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="site-footer mt-4">
+        <div class="container footer-flex">
+            <div>
+                <h3>CodeHub – Build Your Future</h3>
+                <p class="mb-0">Empowering software engineering students with practical coding skills.</p>
+            </div>
+            <div>
+                <p class="mb-1"><strong>Official Docs Reference:</strong> <a href="https://developer.mozilla.org" target="_blank" rel="noopener">MDN Web Docs</a></p>
+                <p class="mb-0"><em>&copy; 2026 CodeHub Technology Academy. All rights reserved.</em></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

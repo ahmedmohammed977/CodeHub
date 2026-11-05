@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeHub – Build Your Future | Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-bar navbar navbar-expand-lg navbar-dark">
+            <a id="site-logo" class="navbar-brand" href="index.html">Code<span>Hub</span></a>
+            <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+            <label for="menu-toggle" class="menu-toggle-btn navbar-toggler" aria-label="Open Menu">
+                &#9776; Menu
+            </label>
+            <nav class="main-nav" aria-label="Main Navigation">
+                <div class="close-drawer-item">
+                    <label for="menu-toggle" class="close-drawer-btn">&times; Close</label>
+                </div>
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="instructors.html">Instructors</a></li>
+                    <li class="nav-item"><a class="nav-link" href="schedule.html">Schedule</a></li>
+                    <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- الجزء الترحيبي -->
+        <section class="hero-banner">
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-lg-7">
+                        <h1>CodeHub – Build Your Future</h1>
+                        <p class="lead">Welcome to <strong>CodeHub Academy</strong>, where students learn <em>software engineering</em>, web development, and Linux administration step by step.</p>
+                        <div class="d-flex flex-wrap gap-2 mt-3">
+                            <a href="register.html" class="btn btn-primary">Start Registration</a>
+                            <a href="courses.html" class="btn btn-outline-light">Explore Courses</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <img src="images/hero-banner.png" alt="CodeHub Academy Banner">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- كروت الكورسات -->
+        <section class="container my-4">
+            <h2>Featured Learning Tracks</h2>
+            <p>Choose your track and start building projects with us.</p>
+            <div class="courses-grid">
+                <!-- Web-->
+                <article class="academy-card featured-card">
+                    <span class="card-badge">Popular</span>
+                    <img src="images/course-web.png" alt="Web Programming Track" class="mb-3">
+                    <h3>Web Development Track</h3>
+                    <p>Learn <strong>HTML5</strong>, <strong>CSS3</strong>, Flexbox, Grid, and responsive web pages.</p>
+                    <a href="courses.html" class="btn btn-primary btn-sm">View Track Details</a>
+                </article>
+                <!-- S/W & Python -->
+                <article class="academy-card">
+                    <span class="card-badge">Core</span>
+                    <img src="images/course-python.png" alt="Software and Python Track" class="mb-3">
+                    <h3>Software &amp; Python Track</h3>
+                    <p>Learn programming basics, clean code, and data scripts using <em>Python</em> with Dr. Nora Naizy.</p>
+                    <a href="courses.html" class="btn btn-outline-primary btn-sm">View Track Details</a>
+                </article>
+                <!-- Linux-->
+                <article class="academy-card">
+                    <span class="card-badge">Lab</span>
+                    <img src="images/course-security.png" alt="Linux and Security Track" class="mb-3">
+                    <h3>Linux &amp; Network Security</h3>
+                    <p>Practice Linux commands, user permissions, and network labs with Dr. Tamer Ahmed.</p>
+                    <a href="courses.html" class="btn btn-outline-primary btn-sm">View Track Details</a>
+                </article>
+            </div>
+        </section>
+        <!-- خطوات التسجيل والصوت -->
+        <div class="container page-grid-layout my-4">
+            <section>
+                <h2>How to Join CodeHub</h2>
+                <p>Follow these 4 easy steps to start learning:</p>
+                <ol class="mb-4">
+                    <li><strong>Pick a Course:</strong> Check the <a href="courses.html">Courses page</a> and choose your track.</li>
+                    <li><strong>Check the Time:</strong> See the lab times on the <a href="schedule.html">Schedule page</a>.</li>
+                    <li><strong>Fill the Form:</strong> Register your name on the <a href="register.html">Register page</a>.</li>
+                    <li><strong>Attend Labs:</strong> Practice coding with <a href="instructors.html">our instructors</a>.</li>
+                </ol>
+                <!-- الصوت -->
+                <div class="media-box">
+                    <h3>Welcome Audio</h3>
+                    <p class="mb-2">Listen to the welcome sound file (<em>media/welcome-audio.wav</em>):</p>
+                    <audio controls>
+                        <source src="media/welcome-audio.wav" type="audio/wav">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </section>
+            <aside class="sidebar-box">
+                <h3>Why Choose CodeHub?</h3>
+                <p>What you get in our academy:</p>
+                <ul>
+                    <li>Small groups in every lab (<strong>15 students</strong> max).</li>
+                    <li><em>Practical projects</em> instead of only exams.</li>
+                    <li>Help from instructors during office hours.</li>
+                    <li>Certificate when you finish the course.</li>
+                </ul>
+                <a href="about.html" class="btn btn-dark btn-sm mt-2">Read More About Us</a>
+            </aside>
+        </div>
+    </main>
+    <!-- Footer-->
+    <footer class="site-footer mt-4">
+        <div class="container footer-flex">
+            <div>
+                <h3>CodeHub – Build Your Future</h3>
+                <p class="mb-0">Empowering software engineering students with practical coding skills.</p>
+            </div>
+            <div>
+                <p class="mb-1"><strong>Official Docs Reference:</strong> <a href="https://developer.mozilla.org" target="_blank" rel="noopener">MDN Web Docs</a></p>
+                <p class="mb-0"><em>&copy; 2026 CodeHub Technology Academy. All rights reserved.</em></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
